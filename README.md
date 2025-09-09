@@ -36,7 +36,7 @@ Portfolio-Website/
 │── index.html          # Main HTML file
 │── style.css           # Styles & animations
 │── script.js           # JavaScript interactivity
-│── assets/             # Images, icons, and other resources
+│── assets/             # Images, Videos
 │── README.md           # Project documentation
 
 ```
