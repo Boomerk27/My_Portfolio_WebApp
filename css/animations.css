@@ -1,0 +1,677 @@
+/* Typewriter Effect */
+.typewriter-text {
+    overflow: hidden;
+    border-right: 2px solid var(--primary-color);
+    white-space: nowrap;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: var(--primary-color)
+    }
+}
+
+/* Fade In Animations */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.fade-in-delay {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Slide In Animations */
+.slide-in-right {
+    opacity: 0;
+    transform: translateX(50px);
+    animation: slideInRight 1s ease-out 0.3s forwards;
+}
+
+@keyframes slideInRight {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Floating Animation */
+.shape {
+    animation: float 6s ease-in-out infinite;
+}
+
+.shape-1 {
+    animation-delay: 0s;
+}
+
+.shape-2 {
+    animation-delay: 2s;
+}
+
+.shape-3 {
+    animation-delay: 4s;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* Blink Animation */
+@keyframes blink {
+
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    51%,
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Pulse Animation */
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+@keyframes codeTyping {
+
+    0%,
+    100% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes scan {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(200px);
+    }
+}
+
+
+
+@keyframes networkPulse {
+
+    0%,
+    100% {
+        opacity: 0.1;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+}
+
+/* Progress Number Counting */
+.progress-number {
+    animation: countUp 2s ease-out forwards;
+}
+
+@keyframes countUp {
+    to {
+        content: attr(data-target);
+    }
+}
+
+/* Staggered Animation for Cards */
+.skill-category,
+.project-card,
+.certificate-card,
+.progress-card,
+.proof-item {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.skill-category:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.skill-category:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.skill-category:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.skill-category:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.project-card:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.project-card:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.project-card:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.project-card:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Heading Text Animations */
+.section-title h2 {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+.skill-category h3,
+.project-content h3,
+.certificate-content h3 {
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: slideInLeft 0.6s ease forwards;
+}
+
+.progress-card h3,
+.stat-card h3 {
+    opacity: 0;
+    transform: scale(0.8);
+    animation: scaleIn 0.6s ease forwards;
+}
+
+/* Individual animation delays for headings */
+.section-title h2 {
+    animation-delay: 0.2s;
+}
+
+.skill-category:nth-child(1) h3 {
+    animation-delay: 0.3s;
+}
+
+.skill-category:nth-child(2) h3 {
+    animation-delay: 0.4s;
+}
+
+.skill-category:nth-child(3) h3 {
+    animation-delay: 0.5s;
+}
+
+.skill-category:nth-child(4) h3 {
+    animation-delay: 0.6s;
+}
+
+.project-card:nth-child(1) h3 {
+    animation-delay: 0.3s;
+}
+
+.project-card:nth-child(2) h3 {
+    animation-delay: 0.4s;
+}
+
+.project-card:nth-child(3) h3 {
+    animation-delay: 0.5s;
+}
+
+.project-card:nth-child(4) h3 {
+    animation-delay: 0.6s;
+}
+
+.progress-card:nth-child(1) h3 {
+    animation-delay: 0.3s;
+}
+
+.progress-card:nth-child(2) h3 {
+    animation-delay: 0.4s;
+}
+
+.progress-card:nth-child(3) h3 {
+    animation-delay: 0.5s;
+}
+
+.progress-card:nth-child(4) h3 {
+    animation-delay: 0.6s;
+}
+
+.stat-card:nth-child(1) h3 {
+    animation-delay: 0.3s;
+}
+
+.stat-card:nth-child(2) h3 {
+    animation-delay: 0.4s;
+}
+
+.stat-card:nth-child(3) h3 {
+    animation-delay: 0.5s;
+}
+
+.stat-card:nth-child(4) h3 {
+    animation-delay: 0.6s;
+}
+
+/* New Animation Keyframes */
+@keyframes slideInLeft {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleIn {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Glitch effect for all section headings */
+.section-title h2,
+.skill-category h3,
+.progress-card h3,
+.tryhackme-banner h3,
+.ctf-stats h3,
+.progress-card-header h3,
+.project-content h3,
+.certificate-content h3,
+.stat-card h3,
+.contact-info h3,
+.footer-column h3,
+.about-text h3,
+.logo {
+    position: relative;
+    display: inline-block;
+}
+
+.section-title h2::before,
+.section-title h2::after,
+.skill-category h3::before,
+.skill-category h3::after,
+.progress-card h3::before,
+.progress-card h3::after,
+.tryhackme-banner h3::before,
+.tryhackme-banner h3::after,
+.ctf-stats h3::before,
+.ctf-stats h3::after,
+.progress-card-header h3::before,
+.progress-card-header h3::after,
+.project-content h3::before,
+.project-content h3::after,
+.certificate-content h3::before,
+.certificate-content h3::after,
+.stat-card h3::before,
+.stat-card h3::after,
+.contact-info h3::before,
+.contact-info h3::after,
+.footer-column h3::before,
+.footer-column h3::after,
+.about-text h3::before,
+.about-text h3::after,
+.logo::before,
+.logo::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    opacity: 0;
+}
+
+.section-title h2::before,
+.skill-category h3::before,
+.progress-card h3::before,
+.tryhackme-banner h3::before,
+.ctf-stats h3::before,
+.progress-card-header h3::before,
+.project-content h3::before,
+.certificate-content h3::before,
+.stat-card h3::before,
+.contact-info h3::before,
+.footer-column h3::before,
+.about-text h3::before,
+.logo::before {
+    left: 2px;
+    text-shadow: -2px 0 #ff00ff;
+    clip: rect(24px, 550px, 90px, 0);
+}
+
+.section-title h2::after,
+.skill-category h3::after,
+.progress-card h3::after,
+.tryhackme-banner h3::after,
+.ctf-stats h3::after,
+.progress-card-header h3::after,
+.project-content h3::after,
+.certificate-content h3::after,
+.stat-card h3::after,
+.contact-info h3::after,
+.footer-column h3::after,
+.about-text h3::after,
+.logo::after {
+    left: -2px;
+    text-shadow: -2px 0 #00ffff;
+    clip: rect(85px, 550px, 140px, 0);
+}
+
+/* Active glitch state */
+.section-title h2.glitch-active::before,
+.section-title h2.glitch-active::after,
+.skill-category h3.glitch-active::before,
+.skill-category h3.glitch-active::after,
+.progress-card h3.glitch-active::before,
+.progress-card h3.glitch-active::after,
+.tryhackme-banner h3.glitch-active::before,
+.tryhackme-banner h3.glitch-active::after,
+.ctf-stats h3.glitch-active::before,
+.ctf-stats h3.glitch-active::after,
+.progress-card-header h3.glitch-active::before,
+.progress-card-header h3.glitch-active::after,
+.project-content h3.glitch-active::before,
+.project-content h3.glitch-active::after,
+.certificate-content h3.glitch-active::before,
+.certificate-content h3.glitch-active::after,
+.stat-card h3.glitch-active::before,
+.stat-card h3.glitch-active::after,
+.contact-info h3.glitch-active::before,
+.contact-info h3.glitch-active::after,
+.footer-column h3.glitch-active::before,
+.footer-column h3.glitch-active::after,
+.about-text h3.glitch-active::before,
+.about-text h3.glitch-active::after,
+.logo.glitch-active::before,
+.logo.glitch-active::after {
+    opacity: 0.8;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+.section-title h2.glitch-active::before,
+.skill-category h3.glitch-active::before,
+.progress-card h3.glitch-active::before,
+.tryhackme-banner h3.glitch-active::before,
+.ctf-stats h3.glitch-active::before,
+.progress-card-header h3.glitch-active::before,
+.project-content h3.glitch-active::before,
+.certificate-content h3.glitch-active::before,
+.stat-card h3.glitch-active::before,
+.contact-info h3.glitch-active::before,
+.footer-column h3.glitch-active::before,
+.about-text h3.glitch-active::before,
+.logo.glitch-active::before {
+    animation-name: glitch-anim-1;
+}
+
+.section-title h2.glitch-active::after,
+.skill-category h3.glitch-active::after,
+.progress-card h3.glitch-active::after,
+.tryhackme-banner h3.glitch-active::after,
+.ctf-stats h3.glitch-active::after,
+.progress-card-header h3.glitch-active::after,
+.project-content h3.glitch-active::after,
+.certificate-content h3.glitch-active::after,
+.stat-card h3.glitch-active::after,
+.contact-info h3.glitch-active::after,
+.footer-column h3.glitch-active::after,
+.about-text h3.glitch-active::after,
+.logo.glitch-active::after {
+    animation-name: glitch-anim-2;
+    animation-delay: 0.05s;
+}
+
+/* Glitch animation keyframes */
+@keyframes glitch-anim-1 {
+    0% {
+        clip: rect(20px, 9999px, 25px, 0);
+    }
+
+    10% {
+        clip: rect(45px, 9999px, 50px, 0);
+    }
+
+    20% {
+        clip: rect(70px, 9999px, 75px, 0);
+    }
+
+    30% {
+        clip: rect(30px, 9999px, 35px, 0);
+    }
+
+    40% {
+        clip: rect(85px, 9999px, 90px, 0);
+    }
+
+    50% {
+        clip: rect(55px, 9999px, 60px, 0);
+    }
+
+    60% {
+        clip: rect(15px, 9999px, 20px, 0);
+    }
+
+    70% {
+        clip: rect(65px, 9999px, 70px, 0);
+    }
+
+    80% {
+        clip: rect(40px, 9999px, 45px, 0);
+    }
+
+    90% {
+        clip: rect(75px, 9999px, 80px, 0);
+    }
+
+    100% {
+        clip: rect(25px, 9999px, 30px, 0);
+    }
+}
+
+@keyframes glitch-anim-2 {
+    0% {
+        clip: rect(65px, 9999px, 70px, 0);
+    }
+
+    10% {
+        clip: rect(25px, 9999px, 30px, 0);
+    }
+
+    20% {
+        clip: rect(50px, 9999px, 55px, 0);
+    }
+
+    30% {
+        clip: rect(75px, 9999px, 80px, 0);
+    }
+
+    40% {
+        clip: rect(35px, 9999px, 40px, 0);
+    }
+
+    50% {
+        clip: rect(80px, 9999px, 85px, 0);
+    }
+
+    60% {
+        clip: rect(60px, 9999px, 65px, 0);
+    }
+
+    70% {
+        clip: rect(20px, 9999px, 25px, 0);
+    }
+
+    80% {
+        clip: rect(70px, 9999px, 75px, 0);
+    }
+
+    90% {
+        clip: rect(45px, 9999px, 50px, 0);
+    }
+
+    100% {
+        clip: rect(80px, 9999px, 85px, 0);
+    }
+}
+
+/* Hover Glow Effect */
+.glow-on-hover {
+    position: relative;
+    overflow: hidden;
+}
+
+.glow-on-hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(0, 255, 136, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.glow-on-hover:hover::before {
+    left: 100%;
+}
+
+/* Button Hover Effects */
+.btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.btn:hover::before {
+    left: 100%;
+}
+
+/* Section Entrance Animations */
+section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+}
+
+section.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Hide terminal on mobile */
+@media (max-width: 768px) {
+    .hero-visual {
+        display: none;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero h1 {
+        min-height: auto;
+        margin-bottom: 30px;
+    }
+}
+
+/* Additional mobile optimizations */
+@media (max-width: 576px) {
+    .section-title h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+        min-height: 120px;
+    }
+
+    /* Reduce animation delays on mobile for better performance */
+    .skill-category h3,
+    .project-content h3,
+    .certificate-content h3,
+    .progress-card h3,
+    .stat-card h3 {
+        animation-delay: 0.1s !important;
+    }
+}

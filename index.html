@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishwar Lal| Cybersecurity Enthusiast</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+    <!-- Loading Spinner -->
+    <div id="loading-spinner" class="loading-spinner"></div>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#home" class="logo" data-text="0xSecIshOps">0xSec<span>IshOps</span></a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#progress">Progress</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <!-- <li><a href="#bug-bounty">Bug Bounty</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="typewriter">
+                    <span class="typewriter-text" id="typewriter"></span>
+                </h1>
+                <p class="fade-in">Passionate about identifying vulnerabilities, securing systems, and contributing to a
+                    safer digital world. With expertise in penetration testing, vulnerability assessment, and ethical
+                    hacking methodologies.</p>
+                <div class="hero-buttons fade-in-delay">
+                    <a href="#projects" class="btn pulse">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+                <div class="terminal-window slide-in-right">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="terminal-btn red"></span>
+                            <span class="terminal-btn yellow"></span>
+                            <span class="terminal-btn green"></span>
+                        </div>
+                        <span class="terminal-title">bash - 0xSecIshOps@security</span>
+                    </div>
+                    <div class="terminal-body">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-text="About Me">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 data-text="Cybersecurity Enthusiast & Developer">Cybersecurity Enthusiast & Developer</h3>
+                    <p>I am Ishwar Lal Khatri, a cybersecurity practitioner with a strong background in IT systems,
+                        hardware/software troubleshooting, and network fundamentals. My expertise covers offensive
+                        security, penetration testing, SOC operations, and vulnerability assessment, supported by a
+                        solid foundation in Computer Science and hands-on technical experience.</p>
+                    <p>I have completed 150+ practical labs across TryHackMe, Hack The Box, and PortSwigger, gaining
+                        real-world skills in ethical hacking, malware analysis, Android exploitation, Windows security,
+                        and SOC activities such as log analysis, incident detection, threat hunting, and alert triage. I
+                        am proficient with a wide range of tools including Kali Linux, Metasploit, Burp Suite, Nmap,
+                        SQLMap, Wireshark, Hydra, and Hashcat, and I have experience managing operating systems, basic
+                        servers, network devices, and IT peripherals. I also develop custom Python tools such as a
+                        vulnerability scanner and a network sniffer.</p>
+                    <p>I am committed to continuous learning across both cybersecurity and IT domains. By applying
+                        frameworks like OWASP Top 10, PTES, the Cyber Kill Chain, and SOC monitoring practices, I focus
+                        on identifying weaknesses, improving defenses, and contributing to secure, resilient digital
+                        environments.</p>
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+                <div class="about-image">
+                    <img src="assets/Images/about_image.jpg" alt="About Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-text="Technical Skills">Technical Skills</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3 data-text="Offensive Security"><i class="fas fa-shield-alt"></i> Offensive Security</h3>
+                    <ul class="skill-list">
+                        <li>Penetration Testing</li>
+                        <li>Vulnerability Assessment</li>
+                        <li>Web App Testing</li>
+                        <li>Network Exploitation</li>
+                        <li>Wi-Fi Security</li>
+                        <li>Social Engineering</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3 data-text="Tools & Platforms"><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <ul class="skill-list">
+                        <li>Kali Linux, Metasploit, Burp Suite</li>
+                        <li>Nmap, SQLMap, Subfinder</li>
+                        <li>Wireshark, Hydra, John the Ripper</li>
+                        <li>Hashcat, Aircrack-ng, Maltego</li>
+                        <li>Nessus, MobSF, TryHackMe</li>
+                        <li>Hack The Box, PortSwigger</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3 data-text="Programming & Development"><i class="fas fa-code"></i> Programming & Development</h3>
+                    <ul class="skill-list">
+                        <li>Python, HTML, CSS, JavaScript</li>
+                        <li>Basic Flutter & Dart</li>
+                        <li>Basic Django</li>
+                        <li>Figma & Adobe XD</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3 data-text="IT Support Skills"><i class="fa-solid fa-laptop-code"></i> IT Support Skills</h3>
+                    <ul class="skill-list">
+                        <li>Hardware & Software Troubleshooting</li>
+                        <li>Network Configuration & Support</li>
+                        <li>Windows & Linux Administration</li>
+                        <li>User Account & Access Management</li>
+                        <li>System Installation & Maintenance</li>
+                        <li>Technical Support & Helpdesk Operations</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3 data-text="Core Competencies"><i class="fas fa-brain"></i> Core Competencies</h3>
+                    <ul class="skill-list">
+                        <li>Problem Solving</li>
+                        <li>Critical Thinking</li>
+                        <li>Teamwork & Collaboration</li>
+                        <li>Analytical Skills</li>
+                        <li>Attention to Detail</li>
+                        <li>Continuous Learning</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Progress Section -->
+    <section id="progress">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-text="Learning Progress">Learning Progress</h2>
+            </div>
+            <div class="progress-stats">
+                <div class="progress-card">
+                    <div class="progress-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 data-text="Home Labs">Home Labs</h3>
+                    <div class="progress-number" data-target="3">0</div>
+                    <p>Completed Labs</p>
+                </div>
+                <div class="progress-card">
+                    <div class="progress-icon">
+                        <i class="fas fa-flag"></i>
+                    </div>
+                    <h3 data-text="TryHackMe">TryHackMe</h3>
+                    <div class="progress-number" data-target="137">0</div>
+                    <p>Rooms Solved</p>
+                </div>
+                <div class="progress-card">
+                    <div class="progress-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3 data-text="Hack The Box">Hack The Box</h3>
+                    <div class="progress-number" data-target="5">0</div>
+                    <p>Completed Modules</p>
+                </div>
+                <div class="progress-card">
+                    <div class="progress-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 data-text="PortSwigger">PortSwigger</h3>
+                    <div class="progress-number" data-target="45">0</div>
+                    <p>Labs Completed</p>
+                </div>
+            </div>
+
+            <div class="tryhackme-banner">
+                <h3 data-text="TryHackMe Profile">TryHackMe Profile</h3>
+                <div class="tryhackme-iframe-container">
+                    <iframe class="tryhackme-iframe"
+                        src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4005451">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- CTF Stats Section -->
+            <div class="ctf-stats">
+                <h3 data-text="CTF Competitions Completed">CTF Competitions Completed</h3>
+                <div class="ctf-grid">
+                    <div class="ctf-stat-card">
+                        <div class="ctf-stat-number">25+</div>
+                        <div class="ctf-stat-label">picoCTF Challenges</div>
+                    </div>
+                    <div class="ctf-stat-card">
+                        <div class="ctf-stat-number">18</div>
+                        <div class="ctf-stat-label">Hacker101 CTFs</div>
+                    </div>
+                    <div class="ctf-stat-card">
+                        <div class="ctf-stat-number">10</div>
+                        <div class="ctf-stat-label">TryHackMe CTF Rooms</div>
+                    </div>
+                    <div class="ctf-stat-card">
+                        <div class="ctf-stat-number">5</div>
+                        <div class="ctf-stat-label">Hack The Box Challenges</div>
+                    </div>
+                    <div class="ctf-stat-card">
+                        <div class="ctf-stat-number">100%</div>
+                        <div class="ctf-stat-label">OverTheWire Bandit</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Progress Detail Cards -->
+            <div class="progress-cards">
+                <!-- SOC & SIEM Lab -->
+                <div class="progress-detail-card">
+                    <div class="progress-card-header">
+                        <h3 data-text="SOC & SIEM Lab Development">Windows Log Monitoring Using Splunk Lab</h3>
+                        <p>Implemented a home SOC lab to collect and analyze Windows authentication events using Splunk
+                            SIEM</p>
+                    </div>
+                    <div class="progress-card-content">
+                        <ul class="progress-features">
+                            <li>Splunk Enterprise deployment and configuration</li>
+                            <li>Windows 11 Event Log collection via Universal Forwarder</li>
+                            <li>Detection of successful logins (Event ID 4624)</li>
+                            <li>Real-time log search and analysis using SPL</li>
+                            <li>Foundation for SOC monitoring and threat detection workflows</li>
+                        </ul>
+                        <div class="progress-screenshot">
+                            <img src="assets/Images/Splunk_Logo.png" alt="SOC & SIEM Lab Screenshot">
+                        </div>
+                        <button class="progress-view-btn" data-progress="splunk-siem">View Details &
+                            Screenshots</button>
+                    </div>
+                </div>
+
+                <!-- Network Security Lab -->
+                <!-- <div class="progress-detail-card">
+                    <div class="progress-card-header">
+                        <h3 data-text="Network Security Lab">Network Security Lab</h3>
+                        <p>Enterprise network security monitoring and intrusion detection</p>
+                    </div>
+                    <div class="progress-card-content">
+                        <ul class="progress-features">
+                            <li>PfSense firewall configuration</li>
+                            <li>Suricata IDS/IPS deployment</li>
+                            <li>Network segmentation and VLANs</li>
+                            <li>VPN setup and monitoring</li>
+                            <li>Traffic analysis and logging</li>
+                        </ul>
+                        <div class="progress-screenshot">
+                            <i class="fas fa-network-wired" style="font-size: 2.5rem; color: white;"></i>
+                        </div>
+                        <button class="progress-view-btn" data-progress="network-security">View Details &
+                            Screenshots</button>
+                    </div>
+                </div> -->
+
+                <!-- Web Application Security Lab -->
+                <!-- <div class="progress-detail-card">
+                    <div class="progress-card-header">
+                        <h3 data-text="Web Application Security Lab">Web Application Security Lab</h3>
+                        <p>Comprehensive web app pentesting and vulnerability assessment environment</p>
+                    </div>
+                    <div class="progress-card-content">
+                        <ul class="progress-features">
+                            <li>DVWA and WebGoat setup</li>
+                            <li>Burp Suite configuration</li>
+                            <li>OWASP Top 10 testing</li>
+                            <li>Custom vulnerable apps</li>
+                            <li>API security testing</li>
+                        </ul>
+                        <div class="progress-screenshot">
+                            <i class="fas fa-globe" style="font-size: 2.5rem; color: white;"></i>
+                        </div>
+                        <button class="progress-view-btn" data-progress="web-app-security">View Details &
+                            Screenshots</button>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress Modal -->
+    <div class="modal-overlay" id="progress-modal">
+        <div class="modal-container">
+            <button class="modal-close" id="progress-modal-close">&times;</button>
+            <div class="progress-modal-body">
+                <div class="progress-modal-screenshot">
+                    <img id="progress-modal-image" src="" alt="Lab Screenshot">
+                </div>
+                <div class="progress-modal-details">
+                    <h3 id="progress-modal-title"></h3>
+                    <p id="progress-modal-description"></p>
+
+                    <ul class="progress-modal-features" id="progress-modal-features"></ul>
+
+                    <div class="progress-modal-tech" id="progress-modal-tech"></div>
+
+                    <div class="progress-modal-links">
+                        <a href="#" class="progress-modal-link" id="progress-modal-github">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                        <a href="#" class="progress-modal-link" id="progress-modal-demo">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-text="My Projects">My Projects</h2>
+            </div>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="security">Security Tools</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+            </div>
+            <div class="projects-grid" id="projects-container">
+                <!-- Security Projects -->
+                <div class="project-card" data-category="security">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                        </div>
+                        <div class="all_projects_image">
+                            <img src="assets/Images/Vulnerability_Scanner.png" alt="Vulnerability_Scanner">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-text="Vulnerability Scanner">Vulnerability Scanner</h3>
+                        <p>Terminal-based penetration testing tool that automates initial security assessment phases
+                            with integrated tools and HTML reporting.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Security</span>
+                            <span class="project-tag">Automation</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="project-btn">View Demo</a>
+                            <a href="https://github.com/0xSecIshOps/Vulnerability_Scanner" target="_blank"
+                                class="project-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="security">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                        </div>
+                        <div class="all_projects_image">
+                            <img src="assets/Images/network_sniffer.jpg" alt="network_sniffer">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-text="Network Sniffer">Network Sniffer</h3>
+                        <p>Lightweight Python network sniffer using Scapy to capture and analyze packets in real time.
+                            Extracts source/destination IPs, ports, protocol, and packet length with optional interface
+                            and packet-count controls.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Scapy</span>
+                            <span class="project-tag">Network Sniffer</span>
+                            <span class="project-tag">Real-time Packet Analysis</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="project-btn">View Demo</a>
+                            <a href="https://github.com/0xSecIshOps/Basic_Network_Sniffer" target="_blank"
+                                class="project-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile & Design Projects -->
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                        </div>
+                        <div class="all_projects_image">
+                            <img src="assets/Images/V-Architect.JPG" alt="V-Architect">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-text="V-Architect">V-Architect</h3>
+                        <p>An interactive 2D floor plan application supporting both voice commands and text input for
+                            architectural design.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Flutter</span>
+                            <span class="project-tag">UI/UX</span>
+                            <span class="project-tag">Voice Commands</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="javascript:void(0)" class="project-btn demo-btn" data-title="V-Architect"
+                                data-video="assets/Videos/V-Architect-Demo Video.mp4"
+                                data-img="assets/Images/V-Architect-Demo Image.jpg">
+                                View Demo
+                            </a>
+                            <a href="https://github.com/0xSecIshOps/V-Architect.git" target="_blank"
+                                class="project-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                        </div>
+                        <div class="all_projects_image">
+                            <img src="assets/Images/Food_Delivery_App UI UX.JPG" alt="Food_Delivery_App">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-text="Food Delivery App">Food Delivery App</h3>
+                        <p>Complete UI/UX design for a food delivery application, focusing on a smooth, intuitive, and
+                            visually appealing user experience.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">UI/UX</span>
+                            <span class="project-tag">Figma</span>
+                            <span class="project-tag">Prototyping</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://www.figma.com/design/SEUXgeDC5E8s4WxrAv8DL9/High-Fidelity-WireFrame?node-id=0-1&p=f"
+                                target="_blank" class="project-btn">View Design</a>
+                            <a href="https://drive.google.com/file/d/1QvMOh1zyCJ3O7SuvsygCzM60P3-eXujn/view"
+                                target="_blank" class="project-btn">Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Modal -->
+    <div id="demoModal" class="modal-overlay">
+        <div class="modal-container">
+            <button class="modal-close" id="demo-close">&times;</button>
+            <div style="padding: 30px;">
+                <h3 class="project-title" style="margin-bottom: 20px;">Demo Preview</h3>
+                <div class="demo-grid">
+                    <video class="demo-video" controls>
+                        <source src="" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="" alt="Demo Screenshot" class="demo-img" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificates Section -->
+    <section id="certificates">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-text="Certifications">Certifications</h2>
+            </div>
+            <div class="certificates-container" id="certificates-container">
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <div class="certificate-overlay">
+                        </div>
+                        <img src="assets/Images/Google_Cybersecurity_Certificate.JPG"
+                            alt="Google_Cybersecurity_Certificate">
+                    </div>
+                    <div class="certificate-content">
+                        <h3 data-text="Google Cybersecurity">Google Cybersecurity</h3>
+                        <p>Develop essential cybersecurity skills with Google professional program. Learn to secure
+                            systems, networks, and data, manage threats, use Linux, Python, SQL, and SIEM tools, and
+                            gain practical experience to prepare for entry-level roles in cybersecurity.</p>
+                        <div class="certificate-tags">
+                            <span class="certificate-tag">Cybersecurity</span>
+                            <span class="certificate-tag">Cyber Threat Intelligence</span>
+                            <span class="certificate-tag">Cyber Attacks</span>
+                            <span class="certificate-tag">Network Security</span>
+                            <span class="certificate-tag">Bash (Scripting Language)</span>
+                            <span class="certificate-tag">Cloud Security</span>
+                            <span class="certificate-tag">Computer Security Incident Management</span>
+                            <span class="certificate-tag">Vulnerability Management</span>
+                            <span class="certificate-tag">SQL</span>
+                        </div>
+                        <a href="https://coursera.org/share/2a272783316c6da6580b0a78e64fe5a4" target="_blank"
+                            class="certificate-btn">View Certificate</a>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <div class="certificate-overlay">
+                        </div>
+                        <img src="assets/Images/Ethical_hacking_from_scratch_2025.jpg"
+                            alt="Ethical_hacking_from_scratch_2025">
+                    </div>
+                    <div class="certificate-content">
+                        <h3 data-text="Learn Ethical Hacking from Scratch 2025">Learn Ethical Hacking from Scratch 2025
+                        </h3>
+                        <p>Completed the “Learn Ethical Hacking from Scratch 2025” course covering network & WiFi
+                            hacking, system and web exploitation, Android security, malware analysis, Windows 11
+                            security, penetration testing methodologies, Kali Linux, VirtualBox, and 30+ security tools
+                            with fully hands-on labs.</p>
+                        <div class="certificate-tags">
+                            <span class="certificate-tag">Cybersecurity</span>
+                            <span class="certificate-tag">Ethical Hacking</span>
+                            <span class="certificate-tag">Network Security</span>
+                            <span class="certificate-tag">WiFi Hacking</span>
+                            <span class="certificate-tag">Kali Linux</span>
+                            <span class="certificate-tag">Metasploit</span>
+                            <span class="certificate-tag">Web Application Security</span>
+                            <span class="certificate-tag">Malware Analysis</span>
+                            <span class="certificate-tag">Android Security</span>
+                            <span class="certificate-tag">Windows Security</span>
+                            <span class="certificate-tag">Offensive Security</span>
+                            <span class="certificate-tag">Security Tools</span>
+                            <span class="certificate-tag">Password Cracking</span>
+                        </div>
+                        <a href="https://www.udemy.com/certificate/UC-46d6a31f-19b2-497c-82cf-c231707a2c6c"
+                            target="_blank" class="certificate-btn">View Certificate</a>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <div class="certificate-overlay">
+                        </div>
+                        <img src="assets/Images/Complete_ethical_hacking_course_2025.jpg"
+                            alt="Complete_ethical_hacking_course_2025">
+                    </div>
+                    <div class="certificate-content">
+                        <h3 data-text="Complete Ethical Hacking Course 2025">Complete Ethical Hacking Course 2025</h3>
+                        <p>Completed an Ethical Hacking & Cybersecurity course covering penetration testing,
+                            Wi-Fi/network security, Linux & Kali Linux, Metasploit, VPNs, virtual lab setup, system
+                            hacking, and security hardening.</p>
+                        <div class="certificate-tags">
+                            <span class="certificate-tag">Cybersecurity</span>
+                            <span class="certificate-tag">Ethical Hacking</span>
+                            <span class="certificate-tag">Penetration Testing</span>
+                            <span class="certificate-tag">Network Security</span>
+                            <span class="certificate-tag">WiFi Security</span>
+                            <span class="certificate-tag">Kali Linux</span>
+                            <span class="certificate-tag">Linux Essentials</span>
+                            <span class="certificate-tag">Metasploit</span>
+                            <span class="certificate-tag">Vulnerability Assessment</span>
+                            <span class="certificate-tag">System Hardening</span>
+                            <span class="certificate-tag">Anonymity & Privacy</span>
+                            <span class="certificate-tag">VPN Security</span>
+                            <span class="certificate-tag">Android Security</span>
+                            <span class="certificate-tag">Virtual Labs</span>
+                        </div>
+                        <a href="https://www.udemy.com/certificate/UC-af767447-e174-4965-ac45-b9e45a439bf1"
+                            target="_blank" class="certificate-btn">View Certificate</a>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <div class="certificate-overlay">
+                        </div>
+                        <img src="assets/Images/Python_certificate.JPG" alt="Python_certificate">
+                    </div>
+                    <div class="certificate-content">
+                        <h3 data-text="Crash Course on Python">Crash Course on Python</h3>
+                        <p>Learn Python from scratch through Google beginner-friendly course. Master coding
+                            fundamentals, data structures, automation, and problem-solving skills using hands-on
+                            projects, practical exercises, and real-world examples to build a strong foundation in
+                            programming.</p>
+                        <div class="certificate-tags">
+                            <span class="certificate-tag">Python Programming</span>
+                            <span class="certificate-tag">Programming Principles</span>
+                            <span class="certificate-tag">Algorithms</span>
+                            <span class="certificate-tag">Data Structures</span>
+                            <span class="certificate-tag">Problem Management</span>
+                            <span class="certificate-tag">Computational Thinking</span>
+                            <span class="certificate-tag">Development Environment</span>
+                            <span class="certificate-tag">Debugging</span>
+                            <span class="certificate-tag">Integrated Development Environments</span>
+                        </div>
+                        <a href="https://www.coursera.org/account/accomplishments/verify/8P1UX6BVWIU3?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+                            target="_blank" class="certificate-btn">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bug Bounty Section -->
+    <!-- <section id="bug-bounty">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-text="Bug Bounty Progress">Bug Bounty Progress</h2>
+            </div>
+            <div class="bug-bounty-stats">
+                <div class="stat-card">
+                    <i class="fas fa-bug"></i>
+                    <h3 data-text="15+">15+</h3>
+                    <p>Bugs Found</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3 data-text="8">8</h3>
+                    <p>Valid Reports</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-star"></i>
+                    <h3 data-text="5">5</h3>
+                    <p>Hall of Fame</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3 data-text="12">12</h3>
+                    <p>Programs Participated</p>
+                </div>
+            </div>
+            <div class="bug-list" id="bug-bounty-container">
+                <div class="bug-item">
+                    <div>
+                        <div class="bug-header">
+                            <span class="bug-title">Cross-Site Scripting (XSS)</span>
+                            <span class="bug-severity severity-high">High</span>
+                        </div>
+                        <p>Found stored XSS vulnerability in user profile section</p>
+                        <p class="bug-platform">Platform: Example.com</p>
+                    </div>
+                    <button class="bug-proof-btn" data-proof="xss-proof">View Proof</button>
+                </div>
+                <div class="bug-item">
+                    <div>
+                        <div class="bug-header">
+                            <span class="bug-title">SQL Injection</span>
+                            <span class="bug-severity severity-critical">Critical</span>
+                        </div>
+                        <p>Identified SQL injection in search functionality</p>
+                        <p class="bug-platform">Platform: Test-Web-App</p>
+                    </div>
+                    <button class="bug-proof-btn" data-proof="sql-proof">View Proof</button>
+                </div>
+                <div class="bug-item">
+                    <div>
+                        <div class="bug-header">
+                            <span class="bug-title">Information Disclosure</span>
+                            <span class="bug-severity severity-medium">Medium</span>
+                        </div>
+                        <p>Discovered sensitive information in server responses</p>
+                        <p class="bug-platform">Platform: Demo-Site</p>
+                    </div>
+                    <button class="bug-proof-btn" data-proof="info-proof">View Proof</button>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Proof Modal -->
+    <!-- <div class="modal-overlay" id="proof-modal">
+        <div class="modal-container" style="padding: 30px;">
+            <button class="modal-close" id="proof-close">&times;</button>
+            <div class="proof-media" id="proof-media"></div>
+            <div class="proof-details" id="proof-details"></div>
+        </div>
+    </div> -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-text="Get In Touch">Get In Touch</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3 data-text="Let's Connect">Let's Connect</h3>
+                    <p>I'm always interested in new opportunities, collaborations, or just chatting about cybersecurity.
+                    </p>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>ishwark272001@gmail.com</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/ishwarlalkhatri/" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/0xSecIshOps" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="e9fd267f-d021-4392-b0e4-492f3816a5b2">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="Name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="Email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="Subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="Message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3 data-text="0xSecIshOps">0xSecIshOps</h3>
+                    <p>Cybersecurity Enthusiast & Bug Bounty Hunter passionate about securing digital environments.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/ishwarlalkhatri/" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/0xSecIshOps" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3 data-text="Quick Links">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 data-text="Resources">Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#certificates">Certificates</a></li>
+                        <!-- <li><a href="#bug-bounty">Bug Bounty</a></li> -->
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#progress">Progress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 data-text="Contact Info">Contact Info</h3>
+                    <ul class="footer-links">
+                        <li><a href="mailto:ishwark272001@gmail.com" target="_blank"><i class="fas fa-envelope"></i>
+                                Email</a></li>
+                        <li><a href="https://www.linkedin.com/in/ishwarlalkhatri/" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                        <li><a href="https://github.com/0xSecIshOps" target="_blank"><i class="fab fa-github"></i>
+                                GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Ishwar Lal Khatri. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/typewriter.js"></script>
+    <script src="js/terminal.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
